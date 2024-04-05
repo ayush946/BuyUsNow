@@ -10,3 +10,6 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 ## Overview
 This FrontEnd application is made using react.js. BootStrap is also used for styling it. It has two main components recommendedEvents (Infinite horizontal scroll) and upcommingEvents (Infinite vertical scroll). Both support LazyLoading. 
+
+## Host link
+Open [https://buy-us-now.vercel.app/](https://buy-us-now.vercel.app/) to view it in your browser.
