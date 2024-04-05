@@ -1,0 +1,58 @@
+body{
+    font:  Inter;
+}
+
+
+.parent-container {
+    position : relative;
+}
+
+.body-container{
+    position : relative;
+}
+
+.cards-container{
+    position : relative;
+    z-index : 9;
+    top : -20rem;
+}
+
+
+@media (max-width: 786px) {
+    .child{
+        margin: 0;
+    }
+    /* .bar-2{
+        margin: 0;
+        padding: 0%;
+    } */
+    /* Assuming the class name for your navigation bar is 'bar-2' */
+   /* Assuming the class name for your navigation bar is 'bar-2' */
+.bar-2 {
+    display: flex;
+    flex-direction: row;
+    margin-left: 9%;
+    margin-right: 9%;
+    margin-bottom: 2%;
+    width: 80%;
+    overflow-x: auto;
+    gap: 10px; /* Add spacing between items */
+  }
+  .bar-2-elements{
+    gap: 10px; /* Add spacing between items */
+  }
+  
+  /* Hide the scrollbar */
+  .bar-2::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Scroll when mouse is hovering */
+  .bar-2:hover {
+    overflow-x: scroll;
+  }
+  
+    
+  /* Optional: Adjust other styles as needed */
+  
+}

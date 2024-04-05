@@ -1,0 +1,21 @@
+.card {
+    width: '17rem';
+    border: 'none';
+    padding: 0; /* Remove padding if any */
+    border: none;
+  }
+
+  
+  
+  .card-img {
+    width: '100%'; /* Full width */
+    height: '100%'; /* Full height */
+    object-fit: cover; /* Cover the whole area without stretching */
+    transform: scale(1); /* Adjust the scale as needed */
+  }
+  
+  img{
+    padding: 0;
+  }
+
+  

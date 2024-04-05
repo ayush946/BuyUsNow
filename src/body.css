@@ -1,0 +1,48 @@
+.image-container {
+    position: relative;
+    width: 100%;
+    height: 100vh; /* This will make the container take the full height of the viewport */
+}
+
+.image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.text-image {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 48px;
+    /* Add additional styles for your text here */
+}
+.text-image-h3 {
+    padding: 40px;
+    color: #989090;
+    font-size: 18px;
+    /* Add additional styles for your text here */
+}
+@media (max-width: 786px) {
+    .text-image {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        font-size: 28px;
+        /* Add additional styles for your text here */
+    }
+    .text-image-h3 {
+        padding: 40px;
+        color: #989090;
+        font-size: 10px;
+        /* Add additional styles for your text here */
+    }
+}
+
